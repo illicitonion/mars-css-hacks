@@ -1,0 +1,15 @@
+{
+  "name": "Mars CSS hacks",
+  "version": "0.1.0",
+  "description": "CSS hacks for online Terraforming Mars",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://terraforming-mars.herokuapp.com/*",
+        "https://rebalanced-mars.herokuapp.com/*"
+      ],
+      "css": ["content.css"]
+    }
+  ],
+  "manifest_version": 2
+}
